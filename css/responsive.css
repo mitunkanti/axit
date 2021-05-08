@@ -1,0 +1,200 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+    .social-media-icon ul li {
+    margin-left: 20px !important;
+    font-size: 10px !important;
+    margin-bottom: 30px;
+  }
+  .col-md-6 img{
+    margin-bottom: 86px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  .mobile-btn{
+    color: white;
+  }
+  .banner{
+   text-align: center;
+   height: auto;
+  }
+  .banner h3{
+   font-size:32px;
+  }
+  .banner p{
+   margin-top: 12px;
+   color: #ded0d0;
+  }
+  .line{
+    margin: auto;
+  }
+  .banner-form{
+    height: auto;
+  }
+  .social-media-content{
+    text-align: center;
+  }
+  .features-tab ul li{
+    display: inline-block;
+    width: 88px !important;
+    margin-bottom: 25px !important;
+  }
+  .current{
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 6px !important;
+  }
+  .features-tab .tab:last-child{
+  border-bottom-left-radius: 0px !important;
+  border-top-right-radius: 6px !important;
+  border-bottom-right-radius: 6px !important;
+}
+  .tab-btn{
+    margin-bottom: 100px;
+  }
+  .sub-list-content{
+    text-align:  center;
+  }
+  .sub-line{
+    margin: 20px auto;
+  }
+  .sub-list-content p{
+    width: auto ;
+  }
+   .col-md-5{
+    width: auto !important;
+    margin-left: 0px !important;
+   }
+  .col-md-5 p{
+    width: auto ;
+  }
+  .social-media-icon ul li i{
+    font-size: 25px;
+  }
+  .social-media-icon ul li {
+    margin-left: 14px !important;
+    text-align: center !important;
+  }
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .mobile-btn{
+    color: white;
+  }
+  .banner{
+   text-align: center;
+   height: auto;
+  }
+  .banner h3{
+   font-size:32px;
+  }
+  .banner p{
+   margin-top: 12px;
+   color: #ded0d0;
+  }
+  .line{
+    margin: auto;
+  }
+  .banner-form{
+    height: auto;
+  }
+  .social-media-content{
+    text-align: center;
+  }
+  .features-tab ul li{
+    display: inline-block;
+    width: 88px !important;
+    margin-bottom: 25px !important;
+  }
+  .current{
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 6px !important;
+  }
+  .features-tab .tab:last-child{
+  border-bottom-left-radius: 0px !important;
+  border-top-right-radius: 6px !important;
+  border-bottom-right-radius: 6px !important;
+}
+  .tab-btn{
+    margin-bottom: 100px;
+  }
+  .sub-list-content{
+    text-align:  center;
+  }
+  .sub-line{
+    margin: 20px auto;
+  }
+  .sub-list-content p{
+    width: auto ;
+  }
+   .col-md-5{
+    width: auto !important;
+    margin-left: 0px !important;
+   }
+  .col-md-5 p{
+    width: auto ;
+  }
+  .social-media-icon ul li i{
+    font-size: 25px;
+  }
+  .social-media-icon ul li {
+    margin-left: 14px !important;
+    text-align: center !important;
+  }
+
+}
+
+
